@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SamitiBook — The society's books, minus the shoebox.</title>
+  <meta name="description" content="Clean dues, instant receipts, and an AGM-ready report for the honorary treasurer of a small housing society. Rs 999/mo.">
+  <meta name="theme-color" content="#4338CA">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top" aria-label="SamitiBook home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
+          <rect x="3" y="3" width="14" height="18" rx="1.5" fill="#4338CA"/>
+          <rect x="6" y="3" width="14" height="18" rx="1.5" fill="#fff" stroke="#4338CA" stroke-width="1.6"/>
+          <line x1="9" y1="8" x2="17" y2="8" stroke="#4338CA" stroke-width="1.2"/>
+          <line x1="9" y1="11.5" x2="17" y2="11.5" stroke="#C9C3E8" stroke-width="1.2"/>
+          <line x1="9" y1="15" x2="17" y2="15" stroke="#C9C3E8" stroke-width="1.2"/>
+        </svg>
+      </span>
+      <span class="brand-name">SamitiBook</span>
+    </a>
+    <div class="nav-links">
+      <a href="#problem">Problem</a>
+      <a href="#how">How it works</a>
+      <a href="#features">Features</a>
+      <a href="#preview">Preview</a>
+      <a href="#pricing">Pricing</a>
+    </div>
+    <a href="#pricing" class="nav-cta">Start free trial</a>
+  </div>
+</nav>
+
+<main id="top">
+
+  <!-- 1. HERO -->
+  <header class="hero ruled">
+    <div class="hero-inner">
+      <p class="eyebrow">Books for small housing societies</p>
+      <h1 class="hero-title">
+        The society's books,<br><span class="ink-accent">minus the shoebox.</span>
+      </h1>
+      <p class="hero-sub">
+        One overworked resident keeps the whole society's money in an Excel sheet and a WhatsApp group &mdash;
+        until the annual handover, when it all vanishes. SamitiBook gives the honorary treasurer clean dues,
+        instant receipts, and an AGM-ready report.
+      </p>
+      <div class="hero-cta-row">
+        <a href="#pricing" class="btn btn-primary">Start free trial &nbsp;&rarr;</a>
+        <a href="#preview" class="btn btn-ghost">See the dashboard</a>
+      </div>
+      <p class="hero-meta">Rs 999/mo &middot; No card to start &middot; Built for societies under 50 flats</p>
+    </div>
+
+    <aside class="hero-card" aria-label="Live collection snapshot">
+      <div class="hc-top">
+        <span class="hc-label">Green Meadows CHS &middot; July 2026</span>
+        <span class="hc-pill">Live</span>
+      </div>
+      <div class="hc-dial">
+        <div class="hc-pct"><span id="collectionCounter" data-target="82">0</span><span class="hc-pct-sign">%</span></div>
+        <div class="hc-pct-label">collected this month</div>
+        <div class="hc-bar"><span id="collectionBar" style="width:0%"></span></div>
+      </div>
+      <dl class="hc-stats">
+        <div><dt>Cash balance</dt><dd class="pos">Rs 4,18,600</dd></div>
+        <div><dt>Flats paid</dt><dd>37 / 45</dd></div>
+        <div><dt>Pending dues</dt><dd class="neg">Rs 24,000</dd></div>
+      </dl>
+    </aside>
+  </header>
+
+  <!-- 2. THE PROBLEM -->
+  <section class="section" id="problem">
+    <div class="section-head">
+      <span class="sec-num">01</span>
+      <h2 class="sec-title">One resident is carrying the whole building's accounts.</h2>
+    </div>
+    <div class="prob-grid">
+      <p class="prob-lead">
+        The honorary treasurer is a working professional who took the job as a favour. There is no accountant,
+        no software, no handover file &mdash; just their memory and goodwill. Today's "system" is three things
+        stitched together, and each one fails in a predictable way.
+      </p>
+      <ul class="prob-list">
+        <li>
+          <span class="prob-tag">WhatsApp group</span>
+          <p>"Please pay maintenance" gets buried under 200 forwards. Nobody knows who actually paid; screenshots of transfers scroll away by Tuesday.</p>
+        </li>
+        <li>
+          <span class="prob-tag">A diary &amp; a shoebox</span>
+          <p>Cash receipts, plumber bills and the electricity challan live in a physical box. Half are faded, one is missing, and the maths is done by hand.</p>
+        </li>
+        <li>
+          <span class="prob-tag">One person's memory</span>
+          <p>Only the treasurer knows who owes two months and who overpaid. When they hand over at the AGM, that knowledge walks out with them.</p>
+        </li>
+      </ul>
+    </div>
+    <p class="prob-kicker">The books don't just get messy &mdash; they <em>die at every annual handover.</em></p>
+  </section>
+
+  <!-- 3. THE INSIGHT -->
+  <section class="section insight ruled">
+    <div class="insight-inner">
+      <span class="sec-num light">02</span>
+      <p class="insight-eyebrow">The wedge</p>
+      <blockquote class="insight-quote">
+        You don't need Tally and a chartered accountant for 45 flats.
+        You need <span class="mark">dues, receipts, and one clean report</span> the next treasurer can actually inherit.
+      </blockquote>
+      <p class="insight-foot">
+        SamitiBook is deliberately small: the exact accounting a &lt;50-flat society runs on, and nothing it doesn't.
+        Clean enough that the handover is a login, not a shoebox.
+      </p>
+    </div>
+  </section>
+
+  <!-- 4. HOW IT WORKS -->
+  <section class="section" id="how">
+    <div class="section-head">
+      <span class="sec-num">03</span>
+      <h2 class="sec-title">From set-up to AGM in four steps.</h2>
+    </div>
+    <ol class="steps">
+      <li class="step">
+        <span class="step-n">1</span>
+        <h3>Add flats &amp; charge heads</h3>
+        <p>Enter your flats and the monthly heads &mdash; maintenance, sinking fund, water, festival. A one-time evening's work.</p>
+      </li>
+      <li class="step">
+        <span class="step-n">2</span>
+        <h3>Generate invoices</h3>
+        <p>One tap raises the month's maintenance bill for every flat from those heads. No copy-paste, no formula errors.</p>
+      </li>
+      <li class="step">
+        <span class="step-n">3</span>
+        <h3>Collect &amp; nudge</h3>
+        <p>Mark payments, issue receipts instantly, and push a polite reminder to defaulters straight to your WhatsApp outbox.</p>
+      </li>
+      <li class="step">
+        <span class="step-n">4</span>
+        <h3>Print the AGM report</h3>
+        <p>Income vs expense with opening and closing balance, ready to project at the annual meeting. The handover is done.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- 5. FEATURES -->
+  <section class="section" id="features">
+    <div class="section-head">
+      <span class="sec-num">04</span>
+      <h2 class="sec-title">Everything a small society's books actually need.</h2>
+    </div>
+    <div class="feat-grid">
+      <article class="feat">
+        <span class="feat-ic" aria-hidden="true">&#8377;</span>
+        <h3>Monthly invoices per flat</h3>
+        <p>Auto-raise each flat's bill from your charge heads &mdash; the same amounts, every month, in seconds.</p>
+      </article>
+      <article class="feat">
+        <span class="feat-ic" aria-hidden="true">&#9888;</span>
+        <h3>Defaulter list &amp; reminders</h3>
+        <p>See who's behind at a glance and drop a ready-to-send nudge into your WhatsApp outbox.</p>
+      </article>
+      <article class="feat">
+        <span class="feat-ic" aria-hidden="true">&#9635;</span>
+        <h3>Expense ledger by category</h3>
+        <p>Log the lift AMC, security, housekeeping and repairs against clean categories &mdash; no loose bills.</p>
+      </article>
+      <article class="feat">
+        <span class="feat-ic" aria-hidden="true">&#9744;</span>
+        <h3>Instant receipts</h3>
+        <p>Every payment generates a numbered receipt the resident can keep. No more &ldquo;did I pay?&rdquo;</p>
+      </article>
+      <article class="feat">
+        <span class="feat-ic" aria-hidden="true">&#9776;</span>
+        <h3>AGM report, ready to print</h3>
+        <p>Income vs expense with opening and closing balance &mdash; the one document the next treasurer needs.</p>
+      </article>
+      <article class="feat">
+        <span class="feat-ic" aria-hidden="true">&#9993;</span>
+        <h3>Notice board &amp; dashboard</h3>
+        <p>Post society notices, and open to a live view: collection %, cash balance, and your top defaulters.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 6. PRODUCT PREVIEW -->
+  <section class="section preview-section" id="preview">
+    <div class="section-head">
+      <span class="sec-num">05</span>
+      <h2 class="sec-title">What the treasurer opens to.</h2>
+    </div>
+
+    <div class="screen" role="img" aria-label="SamitiBook dashboard preview for Green Meadows Co-operative Housing Society showing 82 percent collection, cash balance of 4 lakh 18 thousand rupees, top defaulters and a WhatsApp reminder outbox">
+      <div class="screen-chrome">
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        <span class="screen-url">samitibook.in / green-meadows-chs</span>
+      </div>
+      <div class="screen-body">
+        <div class="screen-side">
+          <div class="side-brand">
+            <span class="side-mark">SB</span>
+            <span class="side-name">SamitiBook</span>
+          </div>
+          <nav class="side-nav" aria-hidden="true">
+            <span class="sn active">Dashboard</span>
+            <span class="sn">Invoices</span>
+            <span class="sn">Receipts</span>
+            <span class="sn">Expenses</span>
+            <span class="sn">AGM Report</span>
+            <span class="sn">Notices</span>
+          </nav>
+          <div class="side-foot">Green Meadows CHS<br><small>45 flats &middot; Pune</small></div>
+        </div>
+
+        <div class="screen-main">
+          <div class="sm-head">
+            <div>
+              <h3 class="sm-title">Dashboard</h3>
+              <p class="sm-crumb">July 2026 &middot; Treasurer: R. Deshpande, A-1204</p>
+            </div>
+            <button class="sm-cta" type="button" tabindex="-1">+ Raise July invoices</button>
+          </div>
+
+          <div class="kpi-row">
+            <div class="kpi">
+              <span class="kpi-k">Collection this month</span>
+              <span class="kpi-v accent">82%</span>
+              <span class="kpi-sub">37 of 45 flats paid</span>
+            </div>
+            <div class="kpi">
+              <span class="kpi-k">Cash balance</span>
+              <span class="kpi-v pos">Rs 4,18,600</span>
+              <span class="kpi-sub">Society + sinking fund</span>
+            </div>
+            <div class="kpi">
+              <span class="kpi-k">Pending dues</span>
+              <span class="kpi-v neg">Rs 24,000</span>
+              <span class="kpi-sub">8 flats outstanding</span>
+            </div>
+          </div>
+
+          <div class="sm-grid">
+            <div class="panel">
+              <div class="panel-head">
+                <h4>Top defaulters</h4>
+                <span class="panel-tag">Send reminders &rarr; outbox</span>
+              </div>
+              <ul class="deflist" id="defList">
+                <li data-name="S. Iyer" data-flat="B-702">
+                  <span class="d-flat">B-702</span>
+                  <span class="d-name">S. Iyer</span>
+                  <span class="d-amt neg">Rs 6,000 &middot; 2 mo</span>
+                  <button class="d-btn" type="button" data-action="remind">Remind</button>
+                </li>
+                <li data-name="Fatima Sheikh" data-flat="C-305">
+                  <span class="d-flat">C-305</span>
+                  <span class="d-name">Fatima Sheikh</span>
+                  <span class="d-amt neg">Rs 3,000 &middot; 1 mo</span>
+                  <button class="d-btn" type="button" data-action="remind">Remind</button>
+                </li>
+                <li data-name="Harpreet Singh" data-flat="A-108">
+                  <span class="d-flat">A-108</span>
+                  <span class="d-name">Harpreet Singh</span>
+                  <span class="d-amt neg">Rs 3,000 &middot; 1 mo</span>
+                  <button class="d-btn" type="button" data-action="remind">Remind</button>
+                </li>
+                <li data-name="M. Reddy" data-flat="D-410">
+                  <span class="d-flat">D-410</span>
+                  <span class="d-name">M. Reddy</span>
+                  <span class="d-amt neg">Rs 3,000 &middot; 1 mo</span>
+                  <button class="d-btn" type="button" data-action="remind">Remind</button>
+                </li>
+              </ul>
+            </div>
+
+            <div class="panel">
+              <div class="panel-head">
+                <h4>WhatsApp outbox</h4>
+                <span class="panel-tag" id="outboxCount">0 queued</span>
+              </div>
+              <div class="outbox" id="outbox">
+                <p class="outbox-empty" id="outboxEmpty">Tap &ldquo;Remind&rdquo; on a defaulter &mdash; the message drops here, ready to send.</p>
+              </div>
+            </div>
+
+            <div class="panel panel-wide">
+              <div class="panel-head">
+                <h4>This month's ledger</h4>
+                <span class="panel-tag">Income vs expense</span>
+              </div>
+              <div class="ledger">
+                <div class="led-col led-in">
+                  <span class="led-h pos">Income</span>
+                  <span class="led-row"><span>Maintenance collected</span><span class="tab pos">Rs 1,11,000</span></span>
+                  <span class="led-row"><span>Sinking fund</span><span class="tab pos">Rs 22,500</span></span>
+                  <span class="led-row led-total"><span>Total in</span><span class="tab pos">Rs 1,33,500</span></span>
+                </div>
+                <div class="led-col led-out">
+                  <span class="led-h neg">Expense</span>
+                  <span class="led-row"><span>Lift AMC &middot; Kone</span><span class="tab neg">Rs 18,400</span></span>
+                  <span class="led-row"><span>Security &middot; 4 guards</span><span class="tab neg">Rs 64,000</span></span>
+                  <span class="led-row"><span>Housekeeping &amp; repairs</span><span class="tab neg">Rs 21,300</span></span>
+                  <span class="led-row led-total"><span>Total out</span><span class="tab neg">Rs 1,03,700</span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="screen-cap">A working preview &mdash; the &ldquo;Remind&rdquo; buttons really do fill the outbox.</p>
+  </section>
+
+  <!-- 7. PRICING -->
+  <section class="section pricing-section" id="pricing">
+    <div class="price-card ruled">
+      <div class="price-left">
+        <span class="sec-num">06</span>
+        <h2 class="price-title">One flat price. The whole society's books.</h2>
+        <p class="price-copy">
+          Less than what the society spends on one month of chai for the AGM. One tidy report at handover
+          is worth more than a weekend of reconciling a broken Excel sheet &mdash; and you get one every month.
+        </p>
+        <ul class="price-list">
+          <li>Unlimited flats up to 50, unlimited invoices &amp; receipts</li>
+          <li>Defaulter reminders, expense ledger &amp; notice board</li>
+          <li>AGM income-vs-expense report, export-ready</li>
+          <li>Clean handover: the next treasurer just logs in</li>
+        </ul>
+      </div>
+      <div class="price-right">
+        <div class="price-tag">
+          <span class="rupee">Rs</span><span class="amount">999</span><span class="per">/mo</span>
+        </div>
+        <p class="price-note">Billed to the society, not to you.</p>
+        <a href="mailto:sreeni.nintendo@gmail.com?subject=SamitiBook%20trial" class="btn btn-primary btn-block">Start free trial &nbsp;&rarr;</a>
+        <p class="price-roi">Saves the treasurer ~6 hours a month &mdash; and the books survive the handover.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. WHO IT'S FOR + FAQ -->
+  <section class="section" id="who">
+    <div class="who-grid">
+      <div class="who-copy">
+        <span class="sec-num">07</span>
+        <h2 class="sec-title">Built for the honorary treasurer.</h2>
+        <p>
+          The resident who keeps the books as a favour to the building &mdash; not an accountant, not a facility
+          manager. If your society is under 50 flats and runs on one person's Excel sheet, SamitiBook is the
+          shortest path to books you can actually hand over.
+        </p>
+        <ul class="who-tags">
+          <li>&lt; 50 flats</li>
+          <li>No accountant on staff</li>
+          <li>Self-managed society</li>
+          <li>Annual AGM</li>
+        </ul>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>Do I need to know accounting?</summary>
+          <p>No. If you can fill an Excel row, you can run SamitiBook. Invoices come from the charge heads you set once, and the AGM report builds itself.</p>
+        </details>
+        <details>
+          <summary>What happens when the treasurer changes?</summary>
+          <p>The handover becomes a login. Every invoice, receipt and the running balance stay in SamitiBook &mdash; the new treasurer picks up exactly where the last one left off.</p>
+        </details>
+        <details>
+          <summary>Does it actually send WhatsApp messages?</summary>
+          <p>SamitiBook drafts the reminder and drops it into your outbox, ready to send from your own number. You stay in control of what goes to residents.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- 9. FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="foot-brand">
+      <span class="brand-name">SamitiBook</span>
+      <p>The society's books, minus the shoebox.</p>
+    </div>
+    <div class="foot-meta">
+      <a href="mailto:sreeni.nintendo@gmail.com">sreeni.nintendo@gmail.com</a>
+      <span class="foot-studio">A <strong>KARYA</strong> studio build</span>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
