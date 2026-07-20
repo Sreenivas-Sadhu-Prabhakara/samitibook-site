@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="SamitiBook — the society's books, minus the shoebox. A KARYA studio build.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4338CA"/>
+      <stop offset="1" stop-color="#312A9C"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#C9C3E8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- subtle ruled ledger lines -->
+  <g stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1.5">
+    <line x1="80" y1="150" x2="1120" y2="150"/>
+    <line x1="80" y1="230" x2="1120" y2="230"/>
+    <line x1="80" y1="310" x2="1120" y2="310"/>
+    <line x1="80" y1="390" x2="1120" y2="390"/>
+    <line x1="80" y1="470" x2="1120" y2="470"/>
+  </g>
+
+  <!-- brand row -->
+  <g transform="translate(80, 78)">
+    <rect x="0" y="0" width="34" height="44" rx="4" fill="#C9C3E8"/>
+    <rect x="8" y="0" width="34" height="44" rx="4" fill="#FFFFFF" stroke="#4338CA" stroke-width="2"/>
+    <line x1="15" y1="12" x2="35" y2="12" stroke="#4338CA" stroke-width="3"/>
+    <line x1="15" y1="22" x2="35" y2="22" stroke="#C9C3E8" stroke-width="3"/>
+    <line x1="15" y1="32" x2="35" y2="32" stroke="#C9C3E8" stroke-width="3"/>
+    <text x="60" y="33" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">SamitiBook</text>
+  </g>
+
+  <!-- eyebrow -->
+  <text x="80" y="248" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#C9C3E8" letter-spacing="3">HOUSING SOCIETY ACCOUNTING</text>
+
+  <!-- headline -->
+  <text x="80" y="330" font-family="Georgia, 'Times New Roman', serif" font-size="82" font-weight="700" fill="#FFFFFF">The society's books,</text>
+  <text x="80" y="420" font-family="Georgia, 'Times New Roman', serif" font-size="82" font-weight="700" fill="#C9C3E8">minus the shoebox.</text>
+
+  <!-- tagline -->
+  <text x="80" y="490" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#E7E4F5">Dues collection, instant receipts &amp; an AGM-ready report for treasurers &amp; RWAs.</text>
+
+  <!-- footer wordmark + accent bar -->
+  <rect x="80" y="548" width="120" height="6" rx="3" fill="url(#bar)"/>
+  <text x="80" y="586" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="700" fill="#FFFFFF" letter-spacing="4">KARYA</text>
+  <text x="1120" y="586" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#C9C3E8">a studio build</text>
+</svg>

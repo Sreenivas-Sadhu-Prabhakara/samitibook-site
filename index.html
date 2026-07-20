@@ -1,20 +1,137 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-IN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SamitiBook — The society's books, minus the shoebox.</title>
-  <meta name="description" content="Clean dues, instant receipts, and an AGM-ready report for the honorary treasurer of a small housing society. Subscription pricing shared on a discovery call.">
+  <title>SamitiBook — Housing Society Accounting for Treasurers</title>
+  <meta name="description" content="Housing society maintenance software for treasurers and RWAs: collect maintenance dues, issue instant receipts, and print an AGM-ready report. See how it works.">
+  <meta name="keywords" content="housing society maintenance software, society accounting, maintenance dues collection, RWA management app, AGM report, society billing India">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+  <link rel="canonical" href="https://sreenivas-sadhu-prabhakara.github.io/samitibook-site/">
   <meta name="theme-color" content="#4338CA">
+  <meta name="author" content="KARYA">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="KARYA">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:title" content="SamitiBook — Housing Society Accounting for Treasurers">
+  <meta property="og:description" content="Society accounting for RWAs and honorary treasurers: maintenance dues collection, instant receipts, and an AGM report the next treasurer can inherit.">
+  <meta property="og:url" content="https://sreenivas-sadhu-prabhakara.github.io/samitibook-site/">
+  <meta property="og:image" content="https://sreenivas-sadhu-prabhakara.github.io/samitibook-site/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="SamitiBook — housing society maintenance software for treasurers and RWAs">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SamitiBook — Housing Society Accounting for Treasurers">
+  <meta name="twitter:description" content="Society accounting for RWAs and honorary treasurers: maintenance dues collection, instant receipts, and an AGM report the next treasurer can inherit.">
+  <meta name="twitter:image" content="https://sreenivas-sadhu-prabhakara.github.io/samitibook-site/og.png">
+
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="https://sreenivas-sadhu-prabhakara.github.io/samitibook-site/og.png">
   <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "KARYA",
+        "url": "https://kaarya-bench.pages.dev/",
+        "email": "sreeni.nintendo@gmail.com"
+      },
+      {
+        "@type": "WebSite",
+        "url": "https://sreenivas-sadhu-prabhakara.github.io/samitibook-site/",
+        "name": "SamitiBook",
+        "inLanguage": "en-IN"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "SamitiBook",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "url": "https://sreenivas-sadhu-prabhakara.github.io/samitibook-site/",
+        "image": "https://sreenivas-sadhu-prabhakara.github.io/samitibook-site/og.png",
+        "description": "Housing society maintenance software for treasurers and RWAs: maintenance dues collection, society accounting, instant receipts, an expense ledger, and an AGM-ready report the next treasurer can inherit.",
+        "inLanguage": ["en-IN", "hi-IN"],
+        "areaServed": { "@type": "Country", "name": "India" },
+        "audience": { "@type": "BusinessAudience" },
+        "provider": { "@type": "Organization", "name": "KARYA" },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock",
+          "description": "Subscription — pricing shared on a discovery call"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Do I need to know accounting?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. If you can fill an Excel row, you can run SamitiBook. Invoices come from the charge heads you set once, and the AGM report builds itself."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happens when the treasurer changes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The handover becomes a login. Every invoice, receipt and the running balance stay in SamitiBook — the new treasurer picks up exactly where the last one left off."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does it actually send WhatsApp messages?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "SamitiBook drafts the reminder and drops it into your outbox, ready to send from your own number. You stay in control of what goes to residents."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does it cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pricing is worked out on a quick discovery call and billed monthly on subscription. We're keeping public prices off the page while we onboard our first users."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "KARYA On the Bench",
+            "item": "https://kaarya-bench.pages.dev/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "SamitiBook",
+            "item": "https://sreenivas-sadhu-prabhakara.github.io/samitibook-site/"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
-<nav class="nav" id="nav">
+<nav class="nav" id="nav" aria-label="Primary">
   <div class="nav-inner">
     <a class="brand" href="#top" aria-label="SamitiBook home">
       <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" role="img" aria-label="SamitiBook ledger logo"><title>SamitiBook ledger logo</title>
           <rect x="3" y="3" width="14" height="18" rx="1.5" fill="#4338CA"/>
           <rect x="6" y="3" width="14" height="18" rx="1.5" fill="#fff" stroke="#4338CA" stroke-width="1.6"/>
           <line x1="9" y1="8" x2="17" y2="8" stroke="#4338CA" stroke-width="1.2"/>
@@ -24,7 +141,7 @@
       </span>
       <span class="brand-name">SamitiBook</span>
     </a>
-    <div class="nav-links">
+    <div class="nav-links" aria-label="Sections">
       <a href="#problem">Problem</a>
       <a href="#how">How it works</a>
       <a href="#features">Features</a>
@@ -75,7 +192,7 @@
   </header>
 
   <!-- 2. THE PROBLEM -->
-  <section class="section" id="problem">
+  <section class="section" id="problem" aria-label="The problem: one resident carries the society's accounts">
     <div class="section-head">
       <span class="sec-num">01</span>
       <h2 class="sec-title">One resident is carrying the whole building's accounts.</h2>
@@ -105,7 +222,7 @@
   </section>
 
   <!-- 3. THE INSIGHT -->
-  <section class="section insight ruled">
+  <section class="section insight ruled" aria-label="The wedge: dues, receipts, and one clean report">
     <div class="insight-inner">
       <span class="sec-num light">02</span>
       <p class="insight-eyebrow">The wedge</p>
@@ -121,7 +238,7 @@
   </section>
 
   <!-- 4. HOW IT WORKS -->
-  <section class="section" id="how">
+  <section class="section" id="how" aria-label="How it works: from set-up to AGM in four steps">
     <div class="section-head">
       <span class="sec-num">03</span>
       <h2 class="sec-title">From set-up to AGM in four steps.</h2>
@@ -151,7 +268,7 @@
   </section>
 
   <!-- 5. FEATURES -->
-  <section class="section" id="features">
+  <section class="section" id="features" aria-label="Features: what a small society's books need">
     <div class="section-head">
       <span class="sec-num">04</span>
       <h2 class="sec-title">Everything a small society's books actually need.</h2>
@@ -191,7 +308,7 @@
   </section>
 
   <!-- 6. PRODUCT PREVIEW -->
-  <section class="section preview-section" id="preview">
+  <section class="section preview-section" id="preview" aria-label="Product preview: the treasurer's dashboard">
     <div class="section-head">
       <span class="sec-num">05</span>
       <h2 class="sec-title">What the treasurer opens to.</h2>
@@ -319,7 +436,7 @@
   </section>
 
   <!-- 7. PRICING -->
-  <section class="section pricing-section" id="pricing">
+  <section class="section pricing-section" id="pricing" aria-label="Pricing: simple monthly subscription">
     <div class="price-card ruled">
       <div class="price-left">
         <span class="sec-num">06</span>
@@ -348,7 +465,7 @@
   </section>
 
   <!-- 8. WHO IT'S FOR + FAQ -->
-  <section class="section" id="who">
+  <section class="section" id="who" aria-label="Who it's for and frequently asked questions">
     <div class="who-grid">
       <div class="who-copy">
         <span class="sec-num">07</span>
@@ -365,7 +482,7 @@
           <li>Annual AGM</li>
         </ul>
       </div>
-      <div class="faq">
+      <div class="faq" role="region" aria-label="Frequently asked questions">
         <details>
           <summary>Do I need to know accounting?</summary>
           <p>No. If you can fill an Excel row, you can run SamitiBook. Invoices come from the charge heads you set once, and the AGM report builds itself.</p>
