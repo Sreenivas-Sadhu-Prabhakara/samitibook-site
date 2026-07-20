@@ -3,7 +3,7 @@
 A standalone marketing / explainer page for **SamitiBook**, the books-and-dues
 tool for the honorary treasurer of a small housing society (under 50 flats).
 
-> **The society's books, minus the shoebox.** — Rs 999/mo
+> **The society's books, minus the shoebox.** — subscription · pricing on discovery
 
 This is **not** the product UI. It is a single, self-contained landing page that
 makes the idea instantly clear to a non-technical Indian SMB owner and to an
@@ -27,7 +27,7 @@ investor skimming for 30 seconds.
 4. How it works — four numbered steps.
 5. Features — six concrete features, each with a one-line benefit.
 6. Product preview — a real-looking treasurer dashboard (CSS/HTML "screenshot").
-7. Pricing — Rs 999/mo with the ROI line.
+7. Pricing — pricing on discovery, subscription basis, with the ROI line.
 8. Who it's for + a 3-question FAQ.
 9. Footer — "A KARYA studio build", contact `sreeni.nintendo@gmail.com`.
 

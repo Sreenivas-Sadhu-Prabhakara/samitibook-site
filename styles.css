@@ -436,6 +436,10 @@ img,svg { max-width: 100%; }
 .price-tag .rupee { font-size: 1.4rem; font-weight: 700; color: #c9c2f5; margin-bottom: 6px; }
 .price-tag .amount { font-size: 4rem; font-weight: 850; letter-spacing: -0.04em; }
 .price-tag .per { font-size: 1.1rem; font-weight: 600; color: #b6b1d0; margin-bottom: 10px; }
+/* Number-free variant: stacked label reusing the price type styles */
+.price-tag--label { flex-direction: column; align-items: flex-start; gap: 6px; }
+.price-tag--label .amount { font-size: 1.9rem; letter-spacing: -0.02em; line-height: 1.05; }
+.price-tag--label .per { margin-bottom: 0; }
 .price-note { font-size: .84rem; color: #a9a4c6; margin: 6px 0 20px; }
 .price-right .btn-primary { background: #fff; color: var(--indigo); }
 .price-right .btn-primary:hover { background: #ece9ff; }
